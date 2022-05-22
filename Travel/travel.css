@@ -1,0 +1,85 @@
+
+.header{
+    font-family: 'Lucida Handwriting', Verdana, cursive;
+    color: black;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    transform: translateY(0);
+    will-change: transform;
+    transition: transform .4s;
+    z-index: 102;
+    position: relative;
+    top: 0;
+    left: 0;
+    } 
+.wrapper{
+    width: auto;
+    margin: auto;
+    position: relative;
+}
+body{
+    background-image: url("traveloi.jpeg");
+    background-position: cover; 
+    background-repeat: no-repeat; 
+    background-size: 1500px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;    
+    }
+.iyas{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    }
+.rcorner{
+    border-radius: 25px;
+    width: 500px;
+    height: 300px;
+    border: 2px solid whitesmoke;
+}
+.hover{
+    background-color: transparent;
+    border-color: white;
+    text-decoration: none;
+}
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 200px;
+}
+.td1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.td2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+}
+.contact{
+    margin : 0% 40% 0% 40%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.rcorner-bwh{
+    border-radius: 25px;
+    width: 500px;
+    height: 300px;
+    border: 2px solid whitesmoke;
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+}
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: rgb(61, 61, 61);
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+    color: rgb(240, 239, 239);
+}
+.ft{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+}
